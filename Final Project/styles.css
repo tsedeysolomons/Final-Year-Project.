@@ -1,0 +1,78 @@
+header {
+    background-color: #bebdbd; 
+    padding: 20px;
+    margin: 0px;
+    display: flex; 
+    justify-content: space-between; 
+    align-items: center; 
+  }
+  
+  header h1 {
+    font-size: 30px; 
+    font-family: 'Courier New', Courier, monospace;
+    font-weight: bolder;
+   color: rgb(40, 66, 58);
+   display: inline-block;
+    margin-left: 0px; 
+    padding:0px;
+  }
+  img {
+    width: 50px;
+    height: 50px;
+    margin-right: 10px;
+    padding: 0px;
+    vertical-align: middle;
+    display: inline-block;
+  }
+  
+  header nav ul {
+    list-style: none; 
+    margin: 0; 
+    padding: 1px; 
+    display: flex;
+    justify-content: space-between; 
+  }
+  
+  header nav li {
+    margin-left: 10px;
+    margin-right: 20px; 
+  }
+  
+  header nav a {
+    font-size: 20px;
+    font-weight: bold;
+    text-decoration: none;
+    color: #333; 
+    border-radius: 0px;
+  }
+  
+  header nav a:hover {
+    color: #1e5590; 
+  }
+  .login-signin {
+    display: flex; 
+    justify-content: space-between; 
+    align-items: center; 
+  }
+  
+  .login {
+    background-color: #2a6a7f; 
+    color: #fff; 
+    border: none; 
+    padding: 10px 20px; 
+    font-size: 16px; 
+    cursor: pointer; /* change the cursor to a pointer on hover */
+  }
+  
+  .signin {
+    background-color: #3777bb;
+    color: #fff; 
+    border: none; 
+    padding: 10px 20px; 
+    font-size: 16px; 
+    cursor: pointer; 
+  }
+  
+  .login:hover,.signin:hover {
+    opacity: 0.5; /* reduce the opacity of the button on hover */
+  }
